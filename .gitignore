@@ -1,0 +1,7 @@
+*
+*FileListAbsolute.txt
+!.gitignore
+!README.md
+!LICENSE.md
+!*.h
+!*.cpp
