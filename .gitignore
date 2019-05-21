@@ -1,7 +1,10 @@
 *
-*FileListAbsolute.txt
+!*/
 !.gitignore
 !README.md
 !LICENSE.md
+!input.txt
+!output.txt
+!Contents.xml
 !*.h
 !*.cpp
