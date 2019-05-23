@@ -18,39 +18,37 @@ Generally I've used [uHunt](https://uhunt.onlinejudge.org/) to choose problems t
 
  >> Table under construction...
 
- Name	|	Files	|	Category	|	*Last Updated*
- :---	|	:---:	|	---	|	---:
- [11450 - Wedding Shopping][L2445]           	|	[&#128193;][N2445]	|	Dynamic Programming	|	5/21/2019
- [12545 - Bits Equalizer][L3990]             	|	[&#128193;][N3990]	|		|	5/21/2019
- [483 - Word Scramble][L424]                 	|	[&#128193;][N424] 	|		|	5/21/2019
- [591 - Box of Bricks][L532]                 	|	[&#128193;][N532] 	|		|	5/10/2019
- [136 - Ugly Numbers][L72]                   	|	[&#128193;][N72]  	|	Number Systems	|	11/1/2018
- [11727 - Cost Cutting][L2827]               	|	[&#128193;][N2827]	|		|	10/28/2016
- [1585 - Score][L4460]                       	|	[&#128193;][N4460]	|		|	5/31/2016
- [10082 - WERTYU][L1023]                     	|	[&#128193;][N1023]	|		|	5/13/2016
- [10189 - Minesweeper][L1130]                	|	[&#128193;][N1130]	|		|	5/13/2016
- [10360 - Rat Attack][L1301]                 	|	[&#128193;][N1301]	|		|	9/11/2015
- [573 - The Snail][L514]                     	|	[&#128193;][N514] 	|		|	9/8/2015
- [10420 - List of Conquests][L1361]          	|	[&#128193;][N1361]	|		|	9/8/2015
- [10812 - Beat the Spread!][L1753]           	|	[&#128193;][N1753]	|		|	9/8/2015
- [11498 - Division of Nlogonia][L2493]       	|	[&#128193;][N2493]	|		|	9/8/2015
- [299 - Train Swapping][L235]                	|	[&#128193;][N235] 	|	Sorting	|	9/1/2015
- [10018 - Reverse and Add][L959]             	|	[&#128193;][N959] 	|		|	9/1/2015
- [10035 - Primary Arithmetic][L976]          	|	[&#128193;][N976] 	|		|	8/28/2015
- [10783 - Odd Sum][L1724]                    	|	[&#128193;][N1724]	|		|	8/28/2015
- [10300 - Ecological Premium][L1241]         	|	[&#128193;][N1241]	|		|	8/28/2015
- [10038 - Jolly Jumpers][L979]               	|	[&#128193;][N979] 	|		|	7/29/2015
- [494 - Kindergarten Counting Game][L435]    	|	[&#128193;][N435] 	|		|	7/28/2015
- [102 - Ecological Bin Packing][L38]         	|	[&#128193;][N38]  	|		|	7/28/2015
- [11172 - Relational Operator][L2113]        	|	[&#128193;][N2113]	|		|	7/28/2015
- [458 - The Decoder][L399]                   	|	[&#128193;][N399] 	|		|	7/28/2015
- [272 - TEX Quotes][L208]                    	|	[&#128193;][N208] 	|		|	7/28/2015
- [10071 - Back to High School Physics][L1012]	|	[&#128193;][N1012]	|		|	7/28/2015
- [10055 - Hashmat the Brave Warrior][L996]   	|	[&#128193;][N996] 	|		|	7/28/2015
- [12577 - Hajj-e-Akbar][L4022]               	|	[&#128193;][N4022]	|		|	7/27/2015
- [100 - The 3n + 1 problem][L36]             	|	[&#128193;][N36]  	|	Sequences	|	7/27/2015
-
-
+ Name	|	Files	|	Category	|	*Original*	|	Revised
+ :---	|	:---:	|	---	|	---:	|	---:
+ [11450 - Wedding Shopping][L2445]           	|	[&#128193;][N2445]	|	Dynamic Programming	|	21 May 19	|
+ [12545 - Bits Equalizer][L3990]             	|	[&#128193;][N3990]	|		|	21 May 19	|
+ [483 - Word Scramble][L424]                 	|	[&#128193;][N424] 	|		|	21 May 19	|
+ [591 - Box of Bricks][L532]                 	|	[&#128193;][N532] 	|		|	10 May 19	|
+ [136 - Ugly Numbers][L72]                   	|	[&#128193;][N72]  	|	Number Systems	|	1 Nov 18	|
+ [11727 - Cost Cutting][L2827]               	|	[&#128193;][N2827]	|		|	28 Oct 16	|
+ [1585 - Score][L4460]                       	|	[&#128193;][N4460]	|		|	31 May 16	|
+ [10082 - WERTYU][L1023]                     	|	[&#128193;][N1023]	|		|	13 May 16	|
+ [10189 - Minesweeper][L1130]                	|	[&#128193;][N1130]	|		|	13 May 16	|
+ [10360 - Rat Attack][L1301]                 	|	[&#128193;][N1301]	|		|	11 Sep 15	|
+ [573 - The Snail][L514]                     	|	[&#128193;][N514] 	|		|	8 Sep 15	|
+ [10420 - List of Conquests][L1361]          	|	[&#128193;][N1361]	|		|	8 Sep 15	|
+ [10812 - Beat the Spread!][L1753]           	|	[&#128193;][N1753]	|		|	8 Sep 15	|
+ [11498 - Division of Nlogonia][L2493]       	|	[&#128193;][N2493]	|		|	8 Sep 15	|
+ [299 - Train Swapping][L235]                	|	[&#128193;][N235] 	|	Sorting	|	1 Sep 15	|
+ [10018 - Reverse and Add][L959]             	|	[&#128193;][N959] 	|		|	1 Sep 15	|
+ [10035 - Primary Arithmetic][L976]          	|	[&#128193;][N976] 	|		|	28 Aug 15	|
+ [10783 - Odd Sum][L1724]                    	|	[&#128193;][N1724]	|		|	28 Aug 15	|
+ [10300 - Ecological Premium][L1241]         	|	[&#128193;][N1241]	|		|	28 Aug 15	|
+ [10038 - Jolly Jumpers][L979]               	|	[&#128193;][N979] 	|		|	29 Jul 15	|	23 May 19
+ [494 - Kindergarten Counting Game][L435]    	|	[&#128193;][N435] 	|		|	28 Jul 15	|	22 May 19
+ [102 - Ecological Bin Packing][L38]         	|	[&#128193;][N38]  	|		|	28 Jul 15	|	22 May 19
+ [11172 - Relational Operator][L2113]        	|	[&#128193;][N2113]	|		|	28 Jul 15	|	23 May 19
+ [458 - The Decoder][L399]                   	|	[&#128193;][N399] 	|		|	28 Jul 15	|	23 May 19
+ [272 - TEX Quotes][L208]                    	|	[&#128193;][N208] 	|		|	28 Jul 15	|	23 May 19
+ [10071 - Back to High School Physics][L1012]	|	[&#128193;][N1012]	|		|	28 Jul 15	|	23 May 19
+ [10055 - Hashmat the Brave Warrior][L996]   	|	[&#128193;][N996] 	|		|	28 Jul 15	|	23 May 19
+ [12577 - Hajj-e-Akbar][L4022]               	|	[&#128193;][N4022]	|		|	27 Jul 15	|	23 May 19
+ [100 - The 3n + 1 problem][L36]             	|	[&#128193;][N36]  	|	Sequences	|	27 Jul 15	|	23 May 19
 
 
 [N2445]: https://github.com/mimakyure/UVa/tree/master/11450%20-%20Wedding%20Shopping

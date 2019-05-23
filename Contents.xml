@@ -7,7 +7,7 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Created>2015-06-05T18:17:20Z</Created>
-  <LastSaved>2019-05-21T18:07:52Z</LastSaved>
+  <LastSaved>2019-05-22T19:23:22Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -15,10 +15,11 @@
   <RemovePersonalInformation/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>8130</WindowHeight>
-  <WindowWidth>20490</WindowWidth>
+  <WindowHeight>4920</WindowHeight>
+  <WindowWidth>15345</WindowWidth>
   <WindowTopX>32767</WindowTopX>
   <WindowTopY>32767</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -38,25 +39,38 @@
   <Style ss:ID="s63">
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
   </Style>
-  <Style ss:ID="s66">
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
-   <NumberFormat ss:Format="[ENG][$-409]d\ mmm\ yyyy;@"/>
-  </Style>
-  <Style ss:ID="s67">
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
-   <NumberFormat/>
-  </Style>
-  <Style ss:ID="s68">
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
-   <NumberFormat ss:Format="m/d/yyyy;;"/>
-  </Style>
-  <Style ss:ID="s75">
+  <Style ss:ID="s64">
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
    <Interior ss:Color="#FCE4D6" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s76">
+  <Style ss:ID="s65">
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
    <Interior ss:Color="#FCE4D6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <NumberFormat ss:Format="[ENG][$-409]d\ mmm\ yyyy;@"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#FCE4D6" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="[ENG][$-409]d\ mmm\ yyyy;@"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#000000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s72">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <NumberFormat ss:Format="m/d/yyyy;;"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#000000" ss:Pattern="Solid"/>
   </Style>
  </Styles>
  <Names>
@@ -72,12 +86,12 @@
    <Column ss:Index="4" ss:StyleID="s63" ss:Width="111" ss:Span="1"/>
    <Column ss:Index="7" ss:StyleID="s63" ss:Width="455.25"/>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Validation List Data</Data></Cell>
-    <Cell ss:StyleID="s76"/>
-    <Cell ss:StyleID="s76"/>
-    <Cell ss:StyleID="s76"/>
-    <Cell ss:StyleID="s76"/>
-    <Cell ss:Index="7" ss:StyleID="s75"><Data ss:Type="String">Base URLs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Validation List Data</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">Base URLs</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">STATUS</Data><NamedCell ss:Name="STATUS"/></Cell>
@@ -119,6 +133,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CE</Data></Cell>
     <Cell><Data ss:Type="String">Compilation Error</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Basics</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">RE</Data></Cell>
@@ -137,11 +152,10 @@
     <HorizontalResolution>1200</HorizontalResolution>
     <VerticalResolution>1200</VerticalResolution>
    </Print>
-   <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>12</ActiveRow>
+     <ActiveRow>7</ActiveRow>
      <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
@@ -151,21 +165,25 @@
  </Worksheet>
  <Worksheet ss:Name="Data">
   <Names>
-   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Data!R1C1:R20C4"
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Data!R1C1:R20C5"
     ss:Hidden="1"/>
   </Names>
-  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="30" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="30" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15">
    <Column ss:StyleID="s63" ss:Width="55.5"/>
    <Column ss:StyleID="s63" ss:Width="168.75"/>
-   <Column ss:StyleID="s63" ss:Width="111"/>
-   <Column ss:StyleID="s66" ss:Width="77.25"/>
+   <Column ss:StyleID="s63" ss:Width="111" ss:Span="1"/>
+   <Column ss:Index="5" ss:StyleID="s68" ss:Width="77.25"/>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Number</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Name</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Category</Data><NamedCell
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Number</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Last Updated</Data><NamedCell
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Name</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Category</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Original</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Revised</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -174,28 +192,28 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Dynamic Programming</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="DateTime">2019-05-21T00:00:00.000</Data><NamedCell
+    <Cell ss:StyleID="s68"><Data ss:Type="DateTime">2019-05-21T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">3990</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">12545 - Bits Equalizer</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2019-05-21T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2019-05-21T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">424</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">483 - Word Scramble</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2019-05-21T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2019-05-21T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">532</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">591 - Box of Bricks</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2019-05-10T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2019-05-10T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -204,70 +222,70 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Number Systems</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="DateTime">2018-11-01T00:00:00.000</Data><NamedCell
+    <Cell ss:StyleID="s68"><Data ss:Type="DateTime">2018-11-01T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2827</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">11727 - Cost Cutting</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2016-10-28T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2016-10-28T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">4460</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">1585 - Score</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2016-05-31T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2016-05-31T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">1023</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">10082 - WERTYU</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2016-05-13T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2016-05-13T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">1130</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">10189 - Minesweeper</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2016-05-13T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2016-05-13T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">1301</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">10360 - Rat Attack</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-09-11T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2015-09-11T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">514</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">573 - The Snail</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-09-08T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2015-09-08T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">1361</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">10420 - List of Conquests</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-09-08T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2015-09-08T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">1753</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">10812 - Beat the Spread!</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-09-08T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2015-09-08T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2493</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">11498 - Division of Nlogonia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-09-08T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2015-09-08T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -275,87 +293,102 @@
     <Cell><Data ss:Type="String">299 - Train Swapping</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Sorting</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="DateTime">2015-09-01T00:00:00.000</Data><NamedCell
+    <Cell ss:StyleID="s68"><Data ss:Type="DateTime">2015-09-01T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">959</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">10018 - Reverse and Add</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-09-01T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2015-09-01T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">976</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">10035 - Primary Arithmetic</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-08-28T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2015-08-28T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">1724</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">10783 - Odd Sum</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-08-28T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2015-08-28T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">1241</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">10300 - Ecological Premium</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-08-28T00:00:00.000</Data><NamedCell
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2015-08-28T00:00:00.000</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">979</Data></Cell>
     <Cell><Data ss:Type="String">10038 - Jolly Jumpers</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-07-29T06:31:48.000</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2015-07-29T06:31:48.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">435</Data></Cell>
     <Cell><Data ss:Type="String">494 - Kindergarten Counting Game</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-07-28T10:16:08.000</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s68"><Data ss:Type="DateTime">2015-07-28T10:16:08.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">38</Data></Cell>
     <Cell><Data ss:Type="String">102 - Ecological Bin Packing</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-07-28T09:46:59.000</Data></Cell>
+    <Cell><Data ss:Type="String">Basics</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="DateTime">2015-07-28T09:46:59.000</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-05-22T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2113</Data></Cell>
     <Cell><Data ss:Type="String">11172 - Relational Operator</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-07-28T06:17:23.000</Data></Cell>
+    <Cell><Data ss:Type="String">Basics</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="DateTime">2015-07-28T06:17:23.000</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">399</Data></Cell>
     <Cell><Data ss:Type="String">458 - The Decoder</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-07-28T06:02:50.000</Data></Cell>
+    <Cell><Data ss:Type="String">Basics</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="DateTime">2015-07-28T06:02:50.000</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">208</Data></Cell>
     <Cell><Data ss:Type="String">272 - TEX Quotes</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-07-28T05:51:53.000</Data></Cell>
+    <Cell><Data ss:Type="String">Basics</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="DateTime">2015-07-28T05:51:53.000</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">1012</Data></Cell>
     <Cell><Data ss:Type="String">10071 - Back to High School Physics</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-07-28T05:22:45.000</Data></Cell>
+    <Cell><Data ss:Type="String">Basics</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="DateTime">2015-07-28T05:22:45.000</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">996</Data></Cell>
     <Cell><Data ss:Type="String">10055 - Hashmat the Brave Warrior</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-07-28T02:30:36.000</Data></Cell>
+    <Cell><Data ss:Type="String">Basics</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="DateTime">2015-07-28T02:30:36.000</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">4022</Data></Cell>
     <Cell><Data ss:Type="String">12577 - Hajj-e-Akbar</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="DateTime">2015-07-27T02:43:23.000</Data></Cell>
+    <Cell><Data ss:Type="String">Basics</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="DateTime">2015-07-27T02:43:23.000</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">36</Data></Cell>
     <Cell><Data ss:Type="String">100 - The 3n + 1 problem</Data></Cell>
     <Cell><Data ss:Type="String">Sequences</Data></Cell>
-    <Cell><Data ss:Type="DateTime">2015-07-27T01:31:28.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="DateTime">2015-07-27T01:31:28.000</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -370,12 +403,13 @@
     <HorizontalResolution>1200</HorizontalResolution>
     <VerticalResolution>1200</VerticalResolution>
    </Print>
-   <TopRowVisible>2</TopRowVisible>
+   <Selected/>
+   <TopRowVisible>12</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>8</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>28</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -386,1317 +420,1377 @@
    <Type>List</Type>
    <Value>OFFSET(CATEGORY,1,0,COUNTA(OFFSET(CATEGORY,1,0,100)))</Value>
   </DataValidation>
-  <AutoFilter x:Range="R1C1:R20C4"
+  <AutoFilter x:Range="R1C1:R20C5"
    xmlns="urn:schemas-microsoft-com:office:excel">
   </AutoFilter>
  </Worksheet>
  <Worksheet ss:Name="Markdown">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="109" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="18" ss:ExpandedRowCount="109" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15">
-   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="214.5"/>
-   <Column ss:StyleID="s67" ss:Width="44.25"/>
+   <Column ss:Index="3" ss:StyleID="s70" ss:AutoFitWidth="0" ss:Width="15.75"/>
+   <Column ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="214.5"/>
    <Column ss:StyleID="s63" ss:Width="10.5"/>
    <Column ss:StyleID="s63" ss:Width="105"/>
-   <Column ss:StyleID="s67" ss:Width="39"/>
    <Column ss:StyleID="s63" ss:Width="10.5"/>
    <Column ss:StyleID="s63" ss:Width="111"/>
    <Column ss:StyleID="s63" ss:Width="10.5"/>
-   <Column ss:StyleID="s68" ss:Width="76.5"/>
-   <Column ss:Index="11" ss:StyleID="s63" ss:Width="64.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="68.25"/>
+   <Column ss:StyleID="s63" ss:Width="10.5"/>
+   <Column ss:StyleID="s72" ss:Width="76.5"/>
+   <Column ss:Index="14" ss:StyleID="s63" ss:Width="64.5"/>
    <Column ss:StyleID="s63" ss:Width="44.25"/>
    <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Helper Columns</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s73"/>
     <Cell><Data ss:Type="String">Name</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                                        </Data></Cell>
     <Cell><Data ss:Type="String">|</Data></Cell>
     <Cell><Data ss:Type="String">Files</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String">             </Data></Cell>
     <Cell><Data ss:Type="String">|</Data></Cell>
     <Cell><Data ss:Type="String">Category</Data></Cell>
     <Cell><Data ss:Type="String">|</Data></Cell>
-    <Cell><Data ss:Type="String">*Last Updated*</Data></Cell>
-    <Cell ss:Index="11"><Data ss:Type="String">Table Length</Data></Cell>
-    <Cell ss:Formula="=MATCH(TRUE,INDEX(RC[-11]:R[199]C[-11]=&quot;&quot;,0),0)-1"><Data
-      ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">*Original*</Data></Cell>
+    <Cell><Data ss:Type="String">|</Data></Cell>
+    <Cell><Data ss:Type="String">Revised</Data></Cell>
+    <Cell ss:Index="14" ss:StyleID="s64"><Data ss:Type="String">Markdown formatted table generated using data</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String" x:Ticked="1">:&#45;&#45;-</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                                        </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell><Data ss:Type="String" x:Ticked="1">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-</Data><Comment
+      ss:Author="Author"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+         html:Face="Tahoma" x:Family="Swiss" html:Size="9" html:Color="#000000">Matthew Imakyure&#10;</Font></B><Font
+        html:Face="Tahoma" x:Family="Swiss" html:Size="9" html:Color="#000000">Cell needs to be kept filled for forumulas</Font></ss:Data></Comment></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">:&#45;&#45;-</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
     <Cell><Data ss:Type="String" x:Ticked="1">:&#45;&#45;-:</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String">             </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
     <Cell><Data ss:Type="String" x:Ticked="1">&#45;&#45;-</Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
     <Cell><Data ss:Type="String" x:Ticked="1">&#45;&#45;-:</Data></Cell>
-    <Cell ss:Index="11"><Data ss:Type="String">B Fill Count</Data></Cell>
-    <Cell ss:Formula="=MAX(INDEX(LEN(OFFSET(R[-1]C[-11],0,0,R[-1]C)),0))"><Data
-      ss:Type="Number">44</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">&#45;&#45;-:</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[11450 - Wedding Shopping][L2445]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">           </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N2445]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[11450 - Wedding Shopping][L2445]           </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N2445]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
       ss:Type="String">Dynamic Programming</Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2019-05-21T00:00:00.000</Data></Cell>
-    <Cell ss:Index="11"><Data ss:Type="String">E Fill Count</Data></Cell>
-    <Cell ss:Formula="=MAX(INDEX(LEN(OFFSET(R[-2]C[-8],0,0,R[-2]C)),0))"><Data
-      ss:Type="Number">18</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">Table Length</Data></Cell>
+    <Cell ss:Formula="=MATCH(TRUE,INDEX(R[-2]C[-14]:R[197]C[-14]=&quot;&quot;,0),0)-1"><Data
+      ss:Type="Number">31</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[12545 - Bits Equalizer][L3990]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">             </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N3990]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[12545 - Bits Equalizer][L3990]             </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N3990]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2019-05-21T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">B Fill Count</Data></Cell>
+    <Cell ss:Formula="=MAX(INDEX(LEN(OFFSET(R[-3]C[-14],0,0,R[-1]C)),0))"><Data
+      ss:Type="Number">44</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[483 - Word Scramble][L424]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                 </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N424]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"> </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[483 - Word Scramble][L424]                 </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N424] </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2019-05-21T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">E Fill Count</Data></Cell>
+    <Cell ss:Formula="=MAX(INDEX(LEN(OFFSET(R[-4]C[-13],0,0,R[-2]C)),0))"><Data
+      ss:Type="Number">18</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[591 - Box of Bricks][L532]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                 </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N532]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"> </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[591 - Box of Bricks][L532]                 </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N532] </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2019-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[136 - Ugly Numbers][L72]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                   </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N72]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String">  </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[136 - Ugly Numbers][L72]                   </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N72]  </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
       ss:Type="String">Number Systems</Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2018-11-01T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[11727 - Cost Cutting][L2827]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">               </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N2827]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[11727 - Cost Cutting][L2827]               </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N2827]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2016-10-28T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[1585 - Score][L4460]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                       </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N4460]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[1585 - Score][L4460]                       </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N4460]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2016-05-31T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10082 - WERTYU][L1023]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                     </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N1023]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10082 - WERTYU][L1023]                     </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N1023]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2016-05-13T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10189 - Minesweeper][L1130]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N1130]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10189 - Minesweeper][L1130]                </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N1130]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2016-05-13T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10360 - Rat Attack][L1301]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                 </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N1301]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10360 - Rat Attack][L1301]                 </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N1301]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-09-11T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[573 - The Snail][L514]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                     </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N514]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"> </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[573 - The Snail][L514]                     </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N514] </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-09-08T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10420 - List of Conquests][L1361]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">          </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N1361]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10420 - List of Conquests][L1361]          </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N1361]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-09-08T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10812 - Beat the Spread!][L1753]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">           </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N1753]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10812 - Beat the Spread!][L1753]           </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N1753]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-09-08T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[11498 - Division of Nlogonia][L2493]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">       </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N2493]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[11498 - Division of Nlogonia][L2493]       </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N2493]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-09-08T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[299 - Train Swapping][L235]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N235]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"> </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[299 - Train Swapping][L235]                </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N235] </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
       ss:Type="String">Sorting</Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-09-01T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10018 - Reverse and Add][L959]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">             </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N959]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"> </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10018 - Reverse and Add][L959]             </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N959] </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-09-01T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10035 - Primary Arithmetic][L976]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">          </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N976]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"> </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10035 - Primary Arithmetic][L976]          </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N976] </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-08-28T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10783 - Odd Sum][L1724]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                    </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N1724]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10783 - Odd Sum][L1724]                    </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N1724]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-08-28T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10300 - Ecological Premium][L1241]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">         </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N1241]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10300 - Ecological Premium][L1241]         </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N1241]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-08-28T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10038 - Jolly Jumpers][L979]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">               </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N979]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"> </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10038 - Jolly Jumpers][L979]               </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N979] </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-07-29T06:31:48.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[494 - Kindergarten Counting Game][L435]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">    </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N435]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"> </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[494 - Kindergarten Counting Game][L435]    </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N435] </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-07-28T10:16:08.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">1899-12-31T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[102 - Ecological Bin Packing][L38]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">         </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N38]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String">  </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[102 - Ecological Bin Packing][L38]         </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N38]  </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String">Basics</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-07-28T09:46:59.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">2019-05-22T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[11172 - Relational Operator][L2113]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">        </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N2113]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[11172 - Relational Operator][L2113]        </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N2113]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String">Basics</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-07-28T06:17:23.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[458 - The Decoder][L399]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                   </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N399]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"> </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[458 - The Decoder][L399]                   </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N399] </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String">Basics</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-07-28T06:02:50.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[272 - TEX Quotes][L208]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">                    </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N208]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"> </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[272 - TEX Quotes][L208]                    </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N208] </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String">Basics</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-07-28T05:51:53.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10071 - Back to High School Physics][L1012]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N1012]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10071 - Back to High School Physics][L1012]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N1012]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String">Basics</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-07-28T05:22:45.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[10055 - Hashmat the Brave Warrior][L996]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">   </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N996]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"> </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[10055 - Hashmat the Brave Warrior][L996]   </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N996] </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String">Basics</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-07-28T02:30:36.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[12577 - Hajj-e-Akbar][L4022]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">               </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N4022]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[12577 - Hajj-e-Akbar][L4022]               </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
-      ss:Type="String"></Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N4022]</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+      ss:Type="String">Basics</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-07-27T02:43:23.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;[&quot;&amp;OFFSET(Data!R1C[1],COUNTA(R2C:R[-1]C),0)&amp;&quot;][L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-1]C),0)&amp;&quot;]&quot;"><Data
       ss:Type="String">[100 - The 3n + 1 problem][L36]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R2C[10]-LEN(RC[-1]))"><Data
-      ss:Type="String">             </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
-      ss:Type="String">|</Data></Cell>
     <Cell
-     ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[-3]:R[-1]C[-3]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
+     ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,&quot;[&amp;#128193;][N&quot;&amp;OFFSET(Data!R1C[-1],COUNTA(R2C[-1]:R[-1]C[-1]),0)&amp;&quot;]&quot;,&quot;&quot;)"><Data
       ss:Type="String">[&amp;#128193;][N36]</Data></Cell>
-    <Cell ss:Formula="=REPT(&quot; &quot;,R3C[7]-LEN(RC[-1]))"><Data
-      ss:Type="String">  </Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:Formula="=RC[-3]&amp;REPT(&quot; &quot;,R4C[11]-LEN(RC[-3]))"><Data
+      ss:Type="String">[100 - The 3n + 1 problem][L36]             </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:StyleID="s67"
-     ss:Formula="=OFFSET(Data!R1C[-4],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
+    <Cell ss:Formula="=RC[-4]&amp;REPT(&quot; &quot;,R5C[9]-LEN(RC[-4]))"><Data
+      ss:Type="String">[&amp;#128193;][N36]  </Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)&amp;&quot;&quot;"><Data
       ss:Type="String">Sequences</Data></Cell>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String">|</Data></Cell>
-    <Cell ss:Formula="=OFFSET(Data!R1C[-5],COUNTA(R2C:R[-1]C),0)"><Data
+    <Cell ss:StyleID="s72" ss:Formula="=OFFSET(Data!R1C[-6],COUNTA(R2C:R[-1]C),0)"><Data
       ss:Type="DateTime">2015-07-27T01:31:28.000</Data></Cell>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String">|</Data></Cell>
+    <Cell ss:Formula="=OFFSET(Data!R1C[-7],COUNTA(R2C:R[-1]C),0)"><Data
+      ss:Type="DateTime">2019-05-23T00:00:00.000</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="5" ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:Index="6" ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="7" ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String"></Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N2445]: https://github.com/mimakyure/UVa/tree/master/11450%20-%20Wedding%20Shopping</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N3990]: https://github.com/mimakyure/UVa/tree/master/12545%20-%20Bits%20Equalizer</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N424]: https://github.com/mimakyure/UVa/tree/master/483%20-%20Word%20Scramble</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N532]: https://github.com/mimakyure/UVa/tree/master/591%20-%20Box%20of%20Bricks</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N72]: https://github.com/mimakyure/UVa/tree/master/136%20-%20Ugly%20Numbers</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N2827]: https://github.com/mimakyure/UVa/tree/master/11727%20-%20Cost%20Cutting</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N4460]: https://github.com/mimakyure/UVa/tree/master/1585%20-%20Score</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N1023]: https://github.com/mimakyure/UVa/tree/master/10082%20-%20WERTYU</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N1130]: https://github.com/mimakyure/UVa/tree/master/10189%20-%20Minesweeper</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N1301]: https://github.com/mimakyure/UVa/tree/master/10360%20-%20Rat%20Attack</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N514]: https://github.com/mimakyure/UVa/tree/master/573%20-%20The%20Snail</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N1361]: https://github.com/mimakyure/UVa/tree/master/10420%20-%20List%20of%20Conquests</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N1753]: https://github.com/mimakyure/UVa/tree/master/10812%20-%20Beat%20the%20Spread%21</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N2493]: https://github.com/mimakyure/UVa/tree/master/11498%20-%20Division%20of%20Nlogonia</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N235]: https://github.com/mimakyure/UVa/tree/master/299%20-%20Train%20Swapping</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N959]: https://github.com/mimakyure/UVa/tree/master/10018%20-%20Reverse%20and%20Add</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N976]: https://github.com/mimakyure/UVa/tree/master/10035%20-%20Primary%20Arithmetic</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N1724]: https://github.com/mimakyure/UVa/tree/master/10783%20-%20Odd%20Sum</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N1241]: https://github.com/mimakyure/UVa/tree/master/10300%20-%20Ecological%20Premium</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N979]: https://github.com/mimakyure/UVa/tree/master/10038%20-%20Jolly%20Jumpers</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N435]: https://github.com/mimakyure/UVa/tree/master/494%20-%20Kindergarten%20Counting%20Game</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N38]: https://github.com/mimakyure/UVa/tree/master/102%20-%20Ecological%20Bin%20Packing</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N2113]: https://github.com/mimakyure/UVa/tree/master/11172%20-%20Relational%20Operator</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N399]: https://github.com/mimakyure/UVa/tree/master/458%20-%20The%20Decoder</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N208]: https://github.com/mimakyure/UVa/tree/master/272%20-%20TEX%20Quotes</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N1012]: https://github.com/mimakyure/UVa/tree/master/10071%20-%20Back%20to%20High%20School%20Physics</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N996]: https://github.com/mimakyure/UVa/tree/master/10055%20-%20Hashmat%20the%20Brave%20Warrior</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N4022]: https://github.com/mimakyure/UVa/tree/master/12577%20-%20Hajj-e-Akbar</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[1],COUNTA(R2C:R[-31]C),0))"><Data
+    <Cell ss:Index="4"
+     ss:Formula="=&quot;[N&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C:R[-31]C),0)&amp;&quot;]: &quot;&amp;FLDR_URL&amp;ENCODEURL(OFFSET(Data!R1C[-2],COUNTA(R2C:R[-31]C),0))"><Data
       ss:Type="String">[N36]: https://github.com/mimakyure/UVa/tree/master/100%20-%20The%203n%20%2B%201%20problem</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L2445]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=2445</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L3990]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=3990</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L424]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=424</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L532]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=532</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L72]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=72</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L2827]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=2827</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L4460]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=4460</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L1023]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=1023</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L1130]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=1130</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L1301]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=1301</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L514]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=514</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L1361]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=1361</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L1753]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=1753</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L2493]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=2493</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L235]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=235</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L959]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=959</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L976]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=976</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L1724]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=1724</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L1241]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=1241</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L979]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=979</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L435]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=435</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L38]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=38</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L2113]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=2113</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L399]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=399</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L208]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=208</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L1012]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=1012</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L996]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=996</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L4022]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=4022</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"
-     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C,COUNTA(R2C[2]:R[-63]C[2]),0)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"
+     ss:Formula="=&quot;[L&quot;&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)&amp;&quot;]: &quot;&amp;PROB_URL&amp;OFFSET(Data!R1C[-3],COUNTA(R2C[1]:R[-63]C[1]),0)"><Data
       ss:Type="String">[L36]: https://uva.onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=36</Data></Cell>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="5" ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:Index="6" ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="7" ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:Index="6" ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:Index="7" ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:Formula="=IF(RC1&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=IF(RC4&lt;&gt;&quot;&quot;,R[-1]C,&quot;&quot;)"><Data
       ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
-    <Cell ss:Index="7" ss:StyleID="s67"/>
-    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="8" ss:StyleID="s71"/>
+    <Cell ss:Index="12" ss:StyleID="s63"/>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -1714,7 +1808,7 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveCol>6</ActiveCol>
+     <ActiveCol>5</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
