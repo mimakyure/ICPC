@@ -9,7 +9,7 @@ All code is written in C++ with solutions only optimized as needed to meet time 
 
 Code compiled and tested in MS Visual Studio 2019 with the Boost.Test framework. [Ideone.com](https://ideone.com/) also used for interactive code development. Input and output data test data files sourced in part from [uDebug](https://www.udebug.com/).
 
-To keep things tidy, repository contents are restricted to code and input/output test files (\*.cpp, \*.h, input.txt, output.txt) and a few supplementary files.
+To keep things tidy, repository contents are restricted to code, input/output test files (\*.cpp, \*.h, input.txt, output.txt) and a few supplementary files.
 
 
 ## Contents
@@ -18,37 +18,38 @@ Generally I've used [uHunt](https://uhunt.onlinejudge.org/) to choose problems t
 
  >> Table under construction...
 
- Name	|	Files	|	Category	|	*Original*	|	Revised
+ Name	|	Files	|	Category	|	*Submitted*	|	Revised
  :---	|	:---:	|	---	|	---:	|	---:
  [11450 - Wedding Shopping][L2445]           	|	[&#128193;][N2445]	|	Dynamic Programming	|	21 May 19	|
- [12545 - Bits Equalizer][L3990]             	|	[&#128193;][N3990]	|		|	21 May 19	|
- [483 - Word Scramble][L424]                 	|	[&#128193;][N424] 	|		|	21 May 19	|
- [591 - Box of Bricks][L532]                 	|	[&#128193;][N532] 	|		|	10 May 19	|
- [136 - Ugly Numbers][L72]                   	|	[&#128193;][N72]  	|	Number Systems	|	1 Nov 18	|
- [11727 - Cost Cutting][L2827]               	|	[&#128193;][N2827]	|		|	28 Oct 16	|
- [1585 - Score][L4460]                       	|	[&#128193;][N4460]	|		|	31 May 16	|
- [10082 - WERTYU][L1023]                     	|	[&#128193;][N1023]	|		|	13 May 16	|
- [10189 - Minesweeper][L1130]                	|	[&#128193;][N1130]	|		|	13 May 16	|
- [10360 - Rat Attack][L1301]                 	|	[&#128193;][N1301]	|		|	11 Sep 15	|
- [573 - The Snail][L514]                     	|	[&#128193;][N514] 	|		|	8 Sep 15	|
- [10420 - List of Conquests][L1361]          	|	[&#128193;][N1361]	|		|	8 Sep 15	|
- [10812 - Beat the Spread!][L1753]           	|	[&#128193;][N1753]	|		|	8 Sep 15	|
- [11498 - Division of Nlogonia][L2493]       	|	[&#128193;][N2493]	|		|	8 Sep 15	|
+ [483 - Word Scramble][L424]                 	|	[&#128193;][N424] 	|	String Processing	|	21 May 19	|
+ [12545 - Bits Equalizer][L3990]             	|	[&#128193;][N3990]	|	String Processing	|	21 May 19	|
+ [591 - Box of Bricks][L532]                 	|	[&#128193;][N532] 	|	Data Structures	|	10 May 19	|
+ [136 - Ugly Numbers][L72]                   	|	[&#128193;][N72]  	|	Number Systems or Sequences	|	1 Nov 18	|
+ [11727 - Cost Cutting][L2827]               	|	[&#128193;][N2827]	|	Introduction	|	28 Oct 16	|
+ [1585 - Score][L4460]                       	|	[&#128193;][N4460]	|	Number Systems or Sequences	|	31 May 16	|
+ [10082 - WERTYU][L1023]                     	|	[&#128193;][N1023]	|	Introduction	|	13 May 16	|
+ [10189 - Minesweeper][L1130]                	|	[&#128193;][N1130]	|	Introduction	|	13 May 16	|
+ [10360 - Rat Attack][L1301]                 	|	[&#128193;][N1301]	|	Complete Search	|	11 Sep 15	|
+ [573 - The Snail][L514]                     	|	[&#128193;][N514] 	|	Introduction	|	8 Sep 15	|
+ [10812 - Beat the Spread!][L1753]           	|	[&#128193;][N1753]	|	Introduction	|	8 Sep 15	|
+ [10420 - List of Conquests][L1361]          	|	[&#128193;][N1361]	|	Introduction	|	8 Sep 15	|
+ [11498 - Division of Nlogonia][L2493]       	|	[&#128193;][N2493]	|	Introduction	|	8 Sep 15	|
+ [10018 - Reverse and Add][L959]             	|	[&#128193;][N959] 	|	Introduction	|	1 Sep 15	|
  [299 - Train Swapping][L235]                	|	[&#128193;][N235] 	|	Sorting	|	1 Sep 15	|
- [10018 - Reverse and Add][L959]             	|	[&#128193;][N959] 	|		|	1 Sep 15	|
- [10035 - Primary Arithmetic][L976]          	|	[&#128193;][N976] 	|		|	28 Aug 15	|
- [10783 - Odd Sum][L1724]                    	|	[&#128193;][N1724]	|		|	28 Aug 15	|
- [10300 - Ecological Premium][L1241]         	|	[&#128193;][N1241]	|		|	28 Aug 15	|
- [10038 - Jolly Jumpers][L979]               	|	[&#128193;][N979] 	|		|	29 Jul 15	|	23 May 19
- [494 - Kindergarten Counting Game][L435]    	|	[&#128193;][N435] 	|		|	28 Jul 15	|	22 May 19
- [102 - Ecological Bin Packing][L38]         	|	[&#128193;][N38]  	|		|	28 Jul 15	|	22 May 19
- [11172 - Relational Operator][L2113]        	|	[&#128193;][N2113]	|		|	28 Jul 15	|	23 May 19
- [458 - The Decoder][L399]                   	|	[&#128193;][N399] 	|		|	28 Jul 15	|	23 May 19
- [272 - TEX Quotes][L208]                    	|	[&#128193;][N208] 	|		|	28 Jul 15	|	23 May 19
- [10071 - Back to High School Physics][L1012]	|	[&#128193;][N1012]	|		|	28 Jul 15	|	23 May 19
- [10055 - Hashmat the Brave Warrior][L996]   	|	[&#128193;][N996] 	|		|	28 Jul 15	|	23 May 19
- [12577 - Hajj-e-Akbar][L4022]               	|	[&#128193;][N4022]	|		|	27 Jul 15	|	23 May 19
- [100 - The 3n + 1 problem][L36]             	|	[&#128193;][N36]  	|	Sequences	|	27 Jul 15	|	23 May 19
+ [10300 - Ecological Premium][L1241]         	|	[&#128193;][N1241]	|	Introduction	|	28 Aug 15	|
+ [10035 - Primary Arithmetic][L976]          	|	[&#128193;][N976] 	|	Mathematical Simulation	|	28 Aug 15	|
+ [10783 - Odd Sum][L1724]                    	|	[&#128193;][N1724]	|	Mathematical Simulation	|	28 Aug 15	|
+ [10038 - Jolly Jumpers][L979]               	|	[&#128193;][N979] 	|	Data Structures	|	29 Jul 15	|	23 May 19
+ [494 - Kindergarten Counting Game][L435]    	|	[&#128193;][N435] 	|	Introduction	|	28 Jul 15	|	22 May 19
+ [102 - Ecological Bin Packing][L38]         	|	[&#128193;][N38]  	|	Complete Search	|	28 Jul 15	|	22 May 19
+ [11172 - Relational Operator][L2113]        	|	[&#128193;][N2113]	|	Introduction	|	28 Jul 15	|	23 May 19
+ [458 - The Decoder][L399]                   	|	[&#128193;][N399] 	|	String Processing	|	28 Jul 15	|	23 May 19
+ [272 - TEX Quotes][L208]                    	|	[&#128193;][N208] 	|	Introduction	|	28 Jul 15	|	23 May 19
+ [10071 - Back to High School Physics][L1012]	|	[&#128193;][N1012]	|	Mathematics	|	28 Jul 15	|	23 May 19
+ [10055 - Hashmat the Brave Warrior][L996]   	|	[&#128193;][N996] 	|	Mathematics	|	28 Jul 15	|	23 May 19
+ [12577 - Hajj-e-Akbar][L4022]               	|	[&#128193;][N4022]	|	Introduction	|	27 Jul 15	|	23 May 19
+ [100 - The 3n + 1 problem][L36]             	|	[&#128193;][N36]  	|	Mathematical Simulation	|	27 Jul 15	|	23 May 19
+
 
 
 [N2445]: https://github.com/mimakyure/UVa/tree/master/11450%20-%20Wedding%20Shopping
